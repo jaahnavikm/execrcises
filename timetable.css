@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns:120px repeat(5,20fr);
+    text-align: center;
+}
+.cell{
+    background-color: rgb(150, 214, 223);
+    color: white;
+}
+.day{
+    background-color: rgb(197, 247, 247);
+}
+.item{
+    padding: 10px;
+    border: 1px solid black;
+}
